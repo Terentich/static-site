@@ -6,16 +6,14 @@ date:   2024-01-19 16:45:00 +0100
 
 This is my post.
 Here you can see the today's picture:
-![Image description](/assets/images/todaysheadlinesheader.png)
-
 ![Image test 2]({{ 'assets/images/todaysheadlinesheader.png' | relative_url }})
 
-Useful link:
-https://tseknet.com/blog/startblogging
-https://github.com/TsekNet/website/tree/master
+Useful links:
+1. [Nice Jekyll-based blog](https://tseknet.com/blog/startblogging)
+2. [The source code for this blog](https://github.com/TsekNet/website/tree/master)
 
 Example Java code:
-```java linenos
+```java
 class Main {
 
     public static void main(String[] args) {
@@ -30,6 +28,7 @@ class Main {
 }
 ```
 
+Example of Python code:
 {% highlight python linenos %}
 def Nmaxelements(list1, N):
 final_list = []
