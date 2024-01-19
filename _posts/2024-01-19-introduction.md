@@ -8,8 +8,14 @@ This is my post.
 Here you can see the today's picture:
 ![Image description](/assets/images/todaysheadlinesheader.png)
 
+![Image test 2]({{ 'assets/images/todaysheadlinesheader.png' | relative_url }})
+
+Useful link:
+https://tseknet.com/blog/startblogging
+https://github.com/TsekNet/website/tree/master
+
 Example Java code:
-```java
+```java linenos
 class Main {
 
     public static void main(String[] args) {
@@ -24,11 +30,10 @@ class Main {
 }
 ```
 
-Example Python code:
-```python
+{% highlight python linenos %}
 def Nmaxelements(list1, N):
-    final_list = []
- 
+final_list = []
+
     for i in range(0, N):
         max1 = 0
  
@@ -40,4 +45,4 @@ def Nmaxelements(list1, N):
         final_list.append(max1)
  
     print(final_list)
-```
+{% endhighlight %}
